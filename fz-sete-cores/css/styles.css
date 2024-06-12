@@ -282,14 +282,14 @@ blockquote {
   background-image: url(../img/samambaia.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
 }
 
 @media (max-width: 991px) {
   #projects {
     background-image: url(../img/samambaia.jpg);
-    background-size: 840px 960px;
+    background-size: 200%;
+
   }
 }
 
@@ -541,7 +541,7 @@ figure.effect-honey:hover h2 i {
 
 @media (max-width: 767px) {
   #contact {
-    background-size: 840px 960px; 
+    background-size: 200%; 
     background-position: center;
     }
 }
