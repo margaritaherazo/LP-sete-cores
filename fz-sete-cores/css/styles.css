@@ -285,11 +285,33 @@ blockquote {
   position: relative;
 }
 
-@media (max-width: 991px) {
+@media (min-height: 600px) and (min-width: 1920px) {
   #projects {
-    background-image: url(../img/samambaia.jpg);
-    background-size: 200%;
+    background-size: cover;
+  }
+}
 
+@media (min-height: 830px) {
+  #projects {
+    background-position: center -210px;
+  }
+}
+
+@media (min-height: 680px) and (max-height: 829px) {
+  #projects {
+    background-position: center -300px;
+  }
+}
+
+@media (min-height: 500px) and (max-height: 679px) {
+  #projects {
+    background-position: center -400px;
+  }
+}
+
+@media (max-height: 499px) {
+  #projects {
+    background-position: center -450px;
   }
 }
 
@@ -539,11 +561,34 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
-@media (max-width: 767px) {
+@media (min-height: 600px) and (min-width: 1920px) {
   #contact {
-    background-size: 200%; 
-    background-position: center;
-    }
+    background-size: cover;
+  }
+}
+
+@media (min-height: 830px) {
+  #contact {
+    background-position: center -210px;
+  }
+}
+
+@media (min-height: 680px) and (max-height: 829px) {
+  #contact {
+    background-position: center -300px;
+  }
+}
+
+@media (min-height: 500px) and (max-height: 679px) {
+  #contact {
+    background-position: center -400px;
+  }
+}
+
+@media (max-height: 499px) {
+  #contact {
+    background-position: center -450px;
+  }
 }
 
 .contact-item {
