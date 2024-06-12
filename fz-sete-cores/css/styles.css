@@ -289,7 +289,7 @@ blockquote {
 @media (max-width: 991px) {
   #projects {
     background-image: url(../img/samambaia.jpg);
-    background-size: cover;
+    background-size: 840px 960px;
   }
 }
 
@@ -537,6 +537,13 @@ figure.effect-honey:hover h2 i {
   position: relative;
   padding-bottom: 50px;
   padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+  #contact {
+    background-size: 840px 960px; 
+    background-position: center;
+    }
 }
 
 .contact-item {
