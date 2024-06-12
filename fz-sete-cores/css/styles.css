@@ -539,6 +539,12 @@ figure.effect-honey:hover h2 i {
   padding-top: 100px;
 }
 
+@media (max-width: 991px) {
+  #contact {
+    background-image: url(../img/jungle4.jpg);
+    background-size: cover;  
+  }
+}
 
 .contact-item {
   margin-left: 20px;
