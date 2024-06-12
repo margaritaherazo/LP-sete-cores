@@ -280,7 +280,8 @@ blockquote {
 #projects {
   color: white;
   background-image: url(../img/samambaia.jpg);
-  background-size: cover;
+  background-size: 1900px;
+  min-height: 375px;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -552,7 +553,7 @@ figure.effect-honey:hover h2 i {
   color: white;
   background-color: #001828;
   background-image: url(../img/jungle3.jpg);
-  background-size: cover;
+  background-size: 1900px;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
