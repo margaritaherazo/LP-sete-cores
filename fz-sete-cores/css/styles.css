@@ -289,7 +289,7 @@ blockquote {
 @media (max-width: 991px) {
   #projects {
     background-image: url(../img/samambaia.jpg);
-    background-size: 800px;
+    background-size: cover;
   }
 }
 
@@ -530,7 +530,7 @@ figure.effect-honey:hover h2 i {
   color: white;
   background-color: #001828;
   background-image: url(../img/jungle3.jpg);
-  background-size: 1600px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 980px;
